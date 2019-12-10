@@ -1,0 +1,31 @@
+{
+  "name": "blog-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^2.0.3",
+    "@material-ui/lab": "^3.0.0-alpha.23",
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "prop-types": "latest",
+    "react": "^16.6.3",
+    "react-clipboard.js": "^2.0.1",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "tui-editor": "^1.2.7",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8080"
+    }
+  }
+}
